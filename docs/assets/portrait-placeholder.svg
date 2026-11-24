@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 690">
+  <defs>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0v34" fill="none" stroke="#918e7e" stroke-width=".8"/></pattern>
+  </defs>
+  <rect width="600" height="690" fill="#e3e0d1"/>
+  <rect width="600" height="690" fill="url(#grid)"/>
+  <g transform="rotate(-10 300 345)">
+    <rect x="104" y="118" width="405" height="465" rx="11" fill="#b1aa97"/>
+    <rect x="94" y="106" width="405" height="465" rx="11" fill="#f7f5ed" stroke="#b5b09e" stroke-width="3"/>
+    <rect x="251" y="128" width="86" height="10" rx="5" fill="#c6c1af"/>
+    <path d="M149 199h293M149 487h293" stroke="#48473d" stroke-width="2"/>
+    <text x="142" y="425" font-family="Georgia,serif" font-style="italic" font-size="185" letter-spacing="-19" fill="#b9482b">ak.</text>
+    <text x="150" y="532" font-family="Helvetica,Arial,sans-serif" font-size="25" letter-spacing="3" fill="#34352d">AARON KIM</text>
+  </g>
+</svg>
