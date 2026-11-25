@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f6f0">
-  <meta name="description" content="Browse TeacherPalette, QRedirect, Jikyuchan, and FingerPad. Explore screen annotation, QR scanning, smart wishlists, and trackpad drawing.">
+  <meta name="description" content="Explore TeacherPalette, FingerPad, and QRedirect for productive and creative work on Mac, plus Jikyuchan, a playful smart wishlist for iPhone.">
   <title>Mac and iPhone app collection · THE WOOSYUME COMPANY</title>
   <link rel="canonical" href="https://woosyume.dev/products/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="THE WOOSYUME COMPANY">
   <meta property="og:title" content="Mac and iPhone app collection · THE WOOSYUME COMPANY">
-  <meta property="og:description" content="Browse TeacherPalette, QRedirect, Jikyuchan, and FingerPad. Explore screen annotation, QR scanning, smart wishlists, and trackpad drawing.">
+  <meta property="og:description" content="Explore TeacherPalette, FingerPad, and QRedirect for productive and creative work on Mac, plus Jikyuchan, a playful smart wishlist for iPhone.">
   <meta property="og:url" content="https://woosyume.dev/products/">
   <meta property="og:image" content="https://woosyume.dev/assets/images/studio-collection.webp">
   <meta name="twitter:card" content="summary_large_image">
@@ -18,7 +18,7 @@
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Mac and iPhone app collection · THE WOOSYUME COMPANY",
-  "description": "Browse TeacherPalette, QRedirect, Jikyuchan, and FingerPad. Explore screen annotation, QR scanning, smart wishlists, and trackpad drawing.",
+  "description": "Explore TeacherPalette, FingerPad, and QRedirect for productive and creative work on Mac, plus Jikyuchan, a playful smart wishlist for iPhone.",
   "url": "https://woosyume.dev/products/",
   "publisher": {
     "@type": "Organization",
@@ -47,7 +47,7 @@
 </header>
 <main id="main" class="wrap product-index">
   <div class="page-lead list-head">
-    <div><p class="eyebrow">Products</p><h1 class="display">The app <em>collection.</em></h1><p class="intro">Tools for a live demo, a quick sketch, a link on a slide, or a moment to think before buying.</p></div>
+    <div><p class="eyebrow">Products</p><h1 class="display">The app <em>collection.</em></h1><p class="intro">Three Mac apps for presenting, sketching, and working with a shared screen. Plus a little iPhone project I make for fun.</p></div>
     <div class="filters" role="group" aria-label="Filter by platform" hidden>
       <button type="button" data-filter="all" aria-pressed="true">All apps</button>
       <button type="button" data-filter="Mac" aria-pressed="false">Mac</button>
@@ -55,34 +55,42 @@
     </div>
   </div>
   <p id="filter-status" class="sr-only" role="status"></p>
-  <div class="collection catalog"><a class="card" href="../products/teacherpalette/index.html" aria-labelledby="card-teacherpalette" data-platform="Mac">
+  <section class="collection" id="apps" aria-labelledby="apps-title" data-app-group>
+    <div class="section-heading"><h2 class="section-title" id="apps-title">Productivity &amp; creativity</h2></div>
+    <div class="catalog work-catalog">
+      <a class="card" href="../products/teacherpalette/index.html" aria-labelledby="card-teacherpalette" data-platform="Mac">
     <img class="showcase" src="../assets/images/teacherpalette-showcase.webp" width="1200" height="660" loading="lazy" alt="TeacherPalette drawing tools and color palette alongside its app icon">
     <div class="card-copy"><span class="meta">Mac / Presentation</span>
-      <h2 id="card-teacherpalette">TeacherPalette</h2>
+      <h3 id="card-teacherpalette">TeacherPalette</h3>
       <p>Draw on your Mac screen while you teach, present, or walk someone through a demo.</p>
     </div>
   </a>
-  <a class="card" href="../products/qredirect/index.html" aria-labelledby="card-qredirect" data-platform="Mac">
+      <a class="card" href="../products/fingerpad/index.html" aria-labelledby="card-fingerpad" data-platform="Mac">
+    <img class="showcase" src="../assets/images/fingerpad-showcase.webp" width="1200" height="660" loading="lazy" alt="FingerPad app icon beside the drawing canvas and My Canvases library">
+    <div class="card-copy"><span class="meta">Mac / Productivity &amp; creativity · In development</span>
+      <h3 id="card-fingerpad">FingerPad</h3>
+      <p>Sketch a diagram with your trackpad, then walk through it with TeacherPalette during a presentation.</p>
+    </div>
+  </a>
+      <a class="card" href="../products/qredirect/index.html" aria-labelledby="card-qredirect" data-platform="Mac">
     <img class="showcase" src="../assets/images/qredirect-showcase.webp" width="1200" height="660" loading="lazy" alt="QRedirect identifying four QR codes on a presentation slide alongside its app icon">
     <div class="card-copy"><span class="meta">Mac / Utility</span>
-      <h2 id="card-qredirect">QRedirect</h2>
+      <h3 id="card-qredirect">QRedirect</h3>
       <p>Open QR codes straight from a slide, PDF, or shared screen on your Mac.</p>
     </div>
   </a>
-  <a class="card" href="../products/jikyuchan/index.html" aria-labelledby="card-jikyuchan" data-platform="iPhone">
+    </div>
+  </section>
+  <section class="collection play-collection" aria-labelledby="play-title" data-app-group>
+    <div class="section-heading"><h2 class="section-title" id="play-title">Just for fun</h2></div>
+    <a class="card" href="../products/jikyuchan/index.html" aria-labelledby="card-jikyuchan" data-platform="iPhone">
     <img class="showcase" src="../assets/images/jikyuchan-showcase.webp" width="1200" height="660" loading="lazy" alt="Jikyuchan home and savings screens on iPhone alongside the character app icon">
     <div class="card-copy"><span class="meta">iPhone / Shopping · Japanese</span>
-      <h2 id="card-jikyuchan">Jikyuchan</h2>
-      <p>Smart wishlist app for iPhone. Save a product and see its price in hours of work.</p>
+      <h3 id="card-jikyuchan">Jikyuchan</h3>
+      <p>Smart wishlist app for iPhone. I made this one for fun. Save something you like and see how many hours of work it would cost.</p>
     </div>
   </a>
-  <a class="card" href="../products/fingerpad/index.html" aria-labelledby="card-fingerpad" data-platform="Mac">
-    <img class="showcase" src="../assets/images/fingerpad-showcase.webp" width="1200" height="660" loading="lazy" alt="FingerPad app icon beside the drawing canvas and My Canvases library">
-    <div class="card-copy"><span class="meta">Mac / Drawing · In development</span>
-      <h2 id="card-fingerpad">FingerPad</h2>
-      <p>Use your trackpad as a pen for sketches, handwriting, and onscreen annotations.</p>
-    </div>
-  </a></div>
+  </section>
 </main>
 <footer>
   <div class="wrap">

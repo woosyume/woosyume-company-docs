@@ -16,5 +16,8 @@ filters.addEventListener('click', (event) => {
     card.hidden = platform !== 'all' && card.dataset.platform !== platform;
     if (!card.hidden) visible++;
   }
+  for (const group of document.querySelectorAll('[data-app-group]')) {
+    group.hidden = !group.querySelector('[data-platform]:not([hidden])');
+  }
   status.textContent = visible === 1 ? '1 app shown.' : visible + ' apps shown.';
 });
